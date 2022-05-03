@@ -16,9 +16,9 @@ $primarycolor:rgb(49, 203, 250);
 .nosotros {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 15px;
+    justify-content: space-between;
+    
+    padding: 20px 10px;
     border: 2px solid $primarycolor;
     width: 50%;
     height: 500px;
@@ -27,16 +27,18 @@ $primarycolor:rgb(49, 203, 250);
     margin-bottom: 25px;
     border-radius: 15px;
     box-shadow: 20px 15px 35px aqua;
-    background-image: url(/images/nosotros.jpg);
-    font-size: 5px;
-    flex-wrap: wrap;
+    background-image: url(../images/nosotros.jpg);
+    font-size: 25px;
+    flex-wrap: nowrap;
+    color: black;
     
-    .nosotros-title{
-        padding: 15px;
-        color: rgb(255, 255, 255);
+    h1{
+        text-align: center;
+        padding: 50px;
+        color: rgb(241, 241, 241);
         }
         p{
-            margin-top: 15px;
+            margin-bottom: 40px;
             text-align: center;
             color: rgb(255, 255, 255);
         }
@@ -45,16 +47,20 @@ $primarycolor:rgb(49, 203, 250);
         width: 80%;
         height: 800px;
         transition: 5s;
-        background-image: url(/images/40ea801b-45eb-4d34-a17c-106e867d0ab0.jpg);
+        background-image: url(../images/40ea801b-45eb-4d34-a17c-106e867d0ab0.jpg);
         font-size: 35px;
         }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .nosotros{
+        height: 800px;
         p{
-            font-size: 15px;
+            margin: auto;
+            text-align: center;
+            font-size: 12px;
         }
+
     }
 }
 
@@ -73,10 +79,15 @@ $primarycolor:rgb(49, 203, 250);
         background-color: cadetblue;
         font-size: 20px;
         border-radius: 1em;
+        align-items: center;
+        p{
+            font-size: 20px;
+        }
     }
+
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1250px){
     .grid-nosotros{
         padding: 5px 10px;
         margin-top: 50px;
@@ -92,4 +103,18 @@ $primarycolor:rgb(49, 203, 250);
             font-size: 10px;
             border-radius: 1em;
         }
+}
+@media (max-width: 501px){
+    .grid-nosotros{
+        p{
+            margin: auto;
+            padding: auto;
+            font-size: 6px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .grid-nosotros-card{
+        text-align: center;
+    }
 }
