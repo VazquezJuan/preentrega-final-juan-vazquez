@@ -1,0 +1,35 @@
+$primarycolor:rgb(49, 203, 250);
+
+.main-index {
+    .main-space {
+        margin-bottom: 300px;
+    }
+}
+
+// index
+
+
+
+
+// nosotros
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    border: 2px solid $primarycolor;
+    margin: auto;
+    width: 50%;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 20px 15px 35px;
+    &hover{
+    width: 60%;
+    transition: 2s;
+    background-color: $primarycolor;
+    }
+    .h1 {
+        color: $primarycolor;
+    }
+}

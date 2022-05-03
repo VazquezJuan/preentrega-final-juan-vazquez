@@ -73,16 +73,39 @@ footer {
     font-size: 20px;
     margin: 10px 0; }
   footer .redes-container {
-    margin-top: 40px;
-    height: 50px;
-    padding: 5px;
+    height: auto;
+    margin-top: 15px;
+    padding: 5px 10px;
     line-height: 60px;
     list-style: none;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: black;
     flex-wrap: nowrap; }
+  footer i {
+    color: black; }
   footer .redes-container a {
     font-size: 50px; }
+
+.main-index .main-space {
+  margin-bottom: 300px; }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  border: 2px solid #31cbfa;
+  margin: auto;
+  width: 50%;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  box-shadow: 20px 15px 35px; }
+  .nosotroshover {
+    width: 60%;
+    transition: 2s;
+    background-color: #31cbfa; }
+  .nosotros .h1 {
+    color: #31cbfa; }
