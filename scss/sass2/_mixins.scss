@@ -1,0 +1,19 @@
+@import "../variables/variables";
+
+@mixin flexibilizar-espacio {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin fuentes {
+    font-family: $tipo-de-letra;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}
+@mixin estilo-anclas {
+    text-decoration: none;
+    font-family: $tipo-de-letra;
+}

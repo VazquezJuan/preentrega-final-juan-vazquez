@@ -1,13 +1,19 @@
-.header {
+.header-footer, .header, .footer {
+  width: 100%;
   background-color: #1da0a2;
+  font-family: verdana; }
+
+.header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: .5rem 2rem; }
   .header a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-family: verdana;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: bold;
     text-decoration: none;
+    font-size: 25px;
     color: #222;
     text-shadow: 5px 5px 15px; }
   .header .logo-header img {
@@ -61,33 +67,35 @@
       left: 0;
       transition: all .25s; } }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none; }
+.header-footer, .header, .footer {
+  width: 100%;
+  background-color: #1da0a2;
+  font-family: verdana; }
 
-footer {
-  background-color: #1da0a2; }
-  footer p {
-    font-size: 20px;
-    margin: 10px 0; }
-  footer .redes-container {
-    height: auto;
-    margin-top: 15px;
-    padding: 5px 10px;
-    line-height: 60px;
-    list-style: none;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap; }
-  footer i {
-    color: black; }
-  footer .redes-container a {
-    font-size: 50px; }
+.footer p {
+  font-size: 20px;
+  margin: 10px 0; }
+
+.footer .redes-container {
+  height: auto;
+  margin-top: 15px;
+  padding: 5px 10px;
+  line-height: 60px;
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.footer i {
+  color: black; }
+
+.footer .redes-container a {
+  font-size: 50px; }
+
+.footer .redes-container a {
+  color: #ebe8e8; }
 
 .main-index .main-space {
   margin-bottom: 300px;
@@ -174,3 +182,24 @@ footer {
     flex-wrap: wrap; }
   .grid-nosotros-card {
     text-align: center; } }
+
+.header-footer, .header, .footer {
+  width: 100%;
+  background-color: #1da0a2;
+  font-family: verdana; }
+
+.sectionMap {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.tittleMap {
+  color: #4285f4;
+  margin-top: 40px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
